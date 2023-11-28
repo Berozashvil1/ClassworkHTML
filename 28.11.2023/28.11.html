@@ -1,15 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <form action="">
-        <input type="email" placeholder="Enter your Email">
-        <input type="Password" placeholder="Enter your password">
-        <input type="submit" value="submit">
+    <style>
+      .input2 {
+        background-color: darkred;
+        color: white;
+      }
+      .div1 {
+        width: 450px;
+      }
+      .input1,
+      .input2 {
+        width: 350px;
+        height: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="div1">
+        <h2>Get your free account now</h2>
+        <label>
+          Company Name
+          <br />
+          <input type="text" name="CName" class="input1" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Email
+          <br />
+          <input type="email" name="Email" class="input1" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Password
+          <br />
+          <input type="password" name="Pass" class="input1" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Phone Number(Optional)
+          <br />
+          <input type="tel" name="TelNumber" class="input1" />
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="checkbox" name="Check" />
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.,<br />
+          dolores et, soluta corporis quasi cupiditate corrupti suscipit.
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="checkbox" name="Check" />
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </label>
+        <br />
+        <br />
+        <label>
+          <input
+            type="submit"
+            name="signup"
+            value="SIGN UP FOR FREE"
+            class="input2"
+          />
+        </label>
+        <br />
+        <br />
+        <label>
+          Or sign in using
+          <a
+            href="https://www.facebook.com/"
+            target="_blank
+          "
+            ><img src="./Images/download.jpg" alt="" width="30px"
+          /></a>
+          <a
+            href="https://accounts.google.com/servicelogin?hl=en-gb"
+            target="_blank"
+            ><img src="./Images/download (1).jpg" alt="google" width="30px"
+          /></a>
+          <a
+            href="https://myaccount.microsoft.com/?ref=MeControl&login_hint=jamon%40microsoft.com"
+            ><img src="./Images/download (1).png" alt="microsoft" width="30px"
+          /></a>
+        </label>
+      </div>
     </form>
-</body>
+  </body>
 </html>
