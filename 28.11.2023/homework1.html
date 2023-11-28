@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .Forms{
+            width:400px ;
+            margin-left: 600px;
+            margin-top: 50px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Contact Us Today!</h1>
+    <form>
+        <div class="Forms">  
+      <label>
+        First Name
+        <input
+          type="text"
+          name="FirstName"
+          id=""
+          minlength="2"
+          placeholder="First Name"
+          class="FormSample"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Last Name
+        <input
+          type="text"
+          name="LastName"
+          minlength="3"
+          placeholder="Last Name"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        E-mail
+        <input
+          type="email"
+          name="Email"
+          minlength="5"
+          placeholder="E-mail Address"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Phone #
+        <input
+          type="tel"
+          name="PhoneNumber"
+          min="9"
+          max="9"
+          placeholder="555-555-555"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Address
+        <input type="text" name="Address" minlength="2" placeholder="Address" />
+      </label>
+      <br />
+      <br />
+      <label>
+        City
+        <input type="text" name="City" minlength="2" placeholder="city" />
+      </label>
+      <br />
+      <br />
+      <label>
+        State
+        <select name="States">
+          <option value="Select state">Select State</option>
+          <option value="Alabama">Alabama</option>
+          <option value="Arkansas">Arkansas</option>
+          <option value="Georgia">Georgia</option>
+          <option value="New-York">New-York</option>
+          <option value="Washington">Washington</option>
+          <option value="Ohio">Ohio</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label>
+        Zip Code
+        <input type="number" name="Zipcode" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Website or domain name
+        <input
+          type="url"
+          name="Website| domain name"
+          placeholder="Webssite or domain name"
+        />
+      </label>
+      <br />
+      <br />
+      <label>
+        Do you have hosting?
+        <input type="radio" name="Yes" />
+        <input type="radio" name="NO" />
+      </label>
+      <br />
+      <br />
+      <label>
+        <span>Project Description</span>
+        <input type="text" style="height: 40px" placeholder="Projection Description"/>
+      </label>
+      <br />
+      <br />
+      <input type="button" value="Send" />
+    </div>
+    </form>
+  </body>
+</html>
