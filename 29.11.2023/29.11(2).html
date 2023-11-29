@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+      .Firstname {
+        position: absolute;
+        left: 150px;
+        border-color: blue;
+        height: 25px;
+      }
+      .Lastname {
+        position: absolute;
+        left: 150px;
+        border-color: blue;
+        height: 25px;
+      }
+      .Email {
+        position: absolute;
+        left: 150px;
+        border-color: blue;
+        height: 25px;
+      }
+      .Countries {
+        position: absolute;
+        left: 150px;
+        width: 170px;
+        border: 2px solid blue;
+        border-color: blue;
+        height: 30px;
+      }
+      .Comments {
+        position: absolute;
+        left: 150px;
+        border-color: blue;
+        height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+    <hr />
+    <form>
+      <label>
+        First Name
+        <input type="text" name="Firstname" class="Firstname" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Last Name
+        <input type="text" name="Lastname" class="Lastname" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Email
+        <input type="email" name="Email" class="Email" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Select your Country
+        <select name="Countries" class="Countries">
+          <option value="blank"></option>
+          <option value="Georgia">Georgia</option>
+          <option value="Spain">Spain</option>
+          <option value="Germany">Germany</option>
+          <option value="Italy">Italy</option>
+          <option value="France">France</option>
+          <option value="Ukraine">Ukraine</option>
+          <option value="England">England</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <label>
+        Comments
+        <input type="text" name="Comments" class="Comments" />
+      </label>
+      <br />
+      <br />
+      <input type="submit" value="Submit" class="Submit" />
+      <br />
+      <br />
+      <input type="reset" value="Reset" class="Reset" />
+    </form>
+  </body>
+</html>
