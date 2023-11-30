@@ -105,3 +105,20 @@ img{
     color: black;
     font-size: 13px;
 }
+.Timeicon{
+    position: absolute;
+    left: 30px;
+    top: 300px;
+}
+.BH{
+    position: absolute;
+    left: 50px;
+    top: 280px;
+}
+.BusinessHours{
+    position: absolute;
+    left: 30px;
+    top: 350px;
+    color: black;
+    font-size: 13px;
+}
