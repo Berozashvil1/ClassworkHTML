@@ -1,124 +1,146 @@
-.OuterDiv{
-    background-color:rgb(35, 21, 48);
-    width: 800px;
-    height: 550px;
+.OuterDiv {
+  background-color: rgb(35, 21, 48);
+  width: 800px;
+  height: 550px;
 }
-span, h2{
-    color:azure;
-    position: absolute;
-    left: 50px;
-    top: 70px;
+
+span,
+h2 {
+  color: azure;
+  position: absolute;
+  left: 50px;
+  top: 70px;
 }
-.Email{
-    position: absolute;
-    left: 50px;
-    top: 140px;
-    height: 30px;
+
+.Email {
+  position: absolute;
+  left: 50px;
+  top: 140px;
+  height: 30px;
 }
-.Address{
-    position: absolute;
-    left: 50px;
-    top: 190px;
-    height: 30px;
+
+.Address {
+  position: absolute;
+  left: 50px;
+  top: 190px;
+  height: 30px;
 }
-.Name{
-    position: absolute;
-    left: 230px;
-    top: 140px;
-    height: 30px;
+
+.Name {
+  position: absolute;
+  left: 230px;
+  top: 140px;
+  height: 30px;
 }
-.Phone{
-    position: absolute;
-    left: 230px;
-    top: 190px;
-    height: 30px;
+
+.Phone {
+  position: absolute;
+  left: 230px;
+  top: 190px;
+  height: 30px;
 }
-.Message{
-    position: absolute;
-    left: 50px;
-    top: 240px;
-    width: 342px;
-    height: 120px;
+
+.Message {
+  position: absolute;
+  left: 50px;
+  top: 240px;
+  width: 342px;
+  height: 120px;
 }
-.submit{
-    position: absolute;
-    left: 50px;
-    top: 380px;
-    width: 350px;
-    height: 35px;
-    color: white;
-    background-color: chocolate;
+
+.submit {
+  position: absolute;
+  left: 50px;
+  top: 380px;
+  width: 350px;
+  height: 35px;
+  color: white;
+  background-color: chocolate;
 }
-img{
-    position: absolute;
-    top: 470px;
-    width: 20px;
+
+img {
+  position: absolute;
+  top: 470px;
+  width: 20px;
 }
-.FB{
-    left: 50px;
+
+.FB {
+  left: 50px;
 }
-.X{
-    left: 77px;
+
+.X {
+  left: 77px;
 }
-.Insta{
-    left: 104px;
+
+.Insta {
+  left: 104px;
 }
-.InnerDiv{
-    position: absolute;
-    left: 450px;
-    top: 50px;
-    background-color: white;
-    height: 460px;
-    width: 300px;
+
+.InnerDiv {
+  position: absolute;
+  left: 450px;
+  top: 50px;
+  background-color: white;
+  height: 460px;
+  width: 300px;
 }
-.Phoneicon{
-    position: absolute;
-    top: 80px;
-    left: 30px;
+
+.Phoneicon {
+  position: absolute;
+  top: 80px;
+  left: 30px;
 }
-.Call{
-    position: absolute;
-    left: 50px;
-    top: 60px;
+
+.Call {
+  position: absolute;
+  left: 50px;
+  top: 60px;
 }
-.PhoneNumber{
-    position: absolute;
-    left: 30px;
-    top: 120px;
-    color: black;
-    font-size: 13px;
+
+.PhoneNumber {
+  position: absolute;
+  left: 30px;
+  top: 120px;
+  color: black;
+  font-size: 13px;
 }
-.Location{
-    position: absolute;
-    left: 30px;
-    top: 180px;
+
+.Location {
+  position: absolute;
+  left: 30px;
+  top: 180px;
 }
-.LOC{
-    position: absolute;
-    left: 50px;
-    top: 160px;
+
+.LOC {
+  position: absolute;
+  left: 50px;
+  top: 160px;
 }
-.loc{
-    position: absolute;
-    left: 30px;
-    top: 230px;
-    color: black;
-    font-size: 13px;
+
+.loc {
+  position: absolute;
+  left: 30px;
+  top: 230px;
+  color: black;
+  font-size: 13px;
 }
-.Timeicon{
-    position: absolute;
-    left: 30px;
-    top: 300px;
+
+.Timeicon {
+  position: absolute;
+  left: 30px;
+  top: 300px;
 }
-.BH{
-    position: absolute;
-    left: 50px;
-    top: 280px;
+
+.BH {
+  position: absolute;
+  left: 50px;
+  top: 280px;
 }
-.BusinessHours{
-    position: absolute;
-    left: 30px;
-    top: 350px;
-    color: black;
-    font-size: 13px;
+
+.BusinessHours {
+  position: absolute;
+  left: 30px;
+  top: 350px;
+  color: black;
+  font-size: 13px;
 }
