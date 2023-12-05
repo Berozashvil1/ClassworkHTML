@@ -1,0 +1,113 @@
+body{
+    background-color:rgb(242, 240, 247);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+main{
+    width: 600px;
+    height: 700px;
+    background-color: white;
+}
+.Notifications{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.rightNoti{
+    margin-left: 10px;
+    width: 200px;
+    height:fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-size: 21px;
+    width: 30px;
+    height: 25px;
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 23px;
+}
+.Chess{
+    color: darkblue;
+}
+.Mark{
+    color: darkgray;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.Webber{
+    margin-left: 30px;
+    width: 540px;
+    height: 50px;
+    background-color: aliceblue;
+}
+.Message{
+    margin-left:50px;
+    position: relative;
+    bottom: 35px;
+}
+.PFP{
+    width: 35px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.time{
+    color: darkgray;
+}
+.Angela{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 540px;
+    height: 50px;
+    background-color: aliceblue;
+}
+.Jacob{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 540px;
+    height: 50px;
+    background-color: aliceblue;
+}
+.Rizky{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.message{
+    border: 1px solid black;
+    width: 450px;
+    height: 80px;
+    padding: 10px;
+    margin-left: 50px;
+}
+.Kimberly{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 540px;
+    height: 50px;
+    background-color:white;
+}
+.Nathan{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 540px;
+    height: 50px;
+    background-color:white;
+}
+.Anna{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 540px;
+    height: 50px;
+    background-color:white;
+}
+.Chessimage{
+    position: relative;
+    left: 480px;
+    bottom: 60px;
+    width: 30px;
+}
