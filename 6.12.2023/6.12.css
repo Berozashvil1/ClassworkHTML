@@ -1,0 +1,106 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+main {
+  background-color: white;
+  width: 700px;
+  height: 430px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 2%;
+  box-shadow: 2px 5px 5 px rgb(221, 210, 210);
+}
+.LeftDiv {
+  border-radius: 10px;
+  height: 430px;
+  width: 35%;
+  background-image: url(./images/bg-sidebar-desktop.svg);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.RightDiv {
+  width: 63%;
+  height: 430px;
+  border-radius: 10px;
+}
+.YourInfo {
+  display: flex;
+  width: 55%;
+  height: 40px;
+  margin: 9px;
+  margin-right: 50px;
+}
+p {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step {
+  color: darkgray;
+  font-size: 13px;
+}
+.name {
+  color: white;
+  font-size: 12px;
+}
+.info {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.INFO {
+  background-color: darkturquoise;
+  color: black;
+}
+input {
+  width: 80%;
+  height: 35px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+label {
+  margin-left: 50px;
+}
+.Required {
+  color: red;
+  margin-left: 115px;
+}
+.phone {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 50px;
+}
+.submit {
+  width: 20%;
+  background-color: rgb(27, 63, 131);
+  color: white;
+  margin-left: 320px;
+  margin-top: 40px;
+}
+.head {
+  margin: 20px;
+  margin-left: 50px;
+}
+.Phone {
+  border-color: red;
+}
+.Personal {
+  font-size: 30px;
+  color: rgb(27, 63, 131);
+}
+.notice {
+  color: darkgray;
+}
