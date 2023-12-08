@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 300px;
+    border: 1px solid;
+}
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 350px;
+}
+.egg{
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+}
+.transform{
+    width: 100%;
+    height: 320px;
+    background-color:white;
+}
+.glass{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 230px;
+}
+.cherry{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:450px;
+}
+.mandarin{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:460px;
+}
+.person{
+    width: 100%;
+    height: 750px;
+}
+.lower{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lower>div{
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 150px;
+}
+.milk{
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+}
+.orange{
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+}
+.cone{
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+}
+.sugar{
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+}
+footer{
+    background-color: aquamarine;
+    width: 100%;
+    height: 300px;
+}
