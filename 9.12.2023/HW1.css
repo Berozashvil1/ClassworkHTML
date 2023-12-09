@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 1000px;
+}
+.header {
+  height: 550px;
+  width: 1000px;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.upperleft,
+.middleright,
+.whitemiddle {
+  background-color: white;
+}
+.upperleft {
+  position: relative;
+}
+.transform {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50% -50%);
+}
+.upperright {
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.middleleft {
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.middleright {
+  position: relative;
+}
+.standout {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50% -50%);
+}
+.lowerleft {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.graphicdesign {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+  text-align: center;
+  transform: translate(-50% -50%);
+}
+.lowerright {
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.photography {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+  text-align: center;
+  transform: translate(-50% -50%);
+}
+.uppermiddle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.uppermiddle > div {
+  width: 50%;
+  height: 500px;
+}
+.whitemiddle {
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+.whitemiddle > h3 {
+  position: relative;
+  left: 390px;
+  top: 100px;
+  color: darkgray;
+}
+.bottomfirst {
+  background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+}
+.bottomsecond {
+  background-image: url(./images/desktop/image-gallery-orange.jpg);
+}
+.bottomthird {
+  background-image: url(./images/desktop/image-gallery-cone.jpg);
+}
+.bottomfourth {
+  background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+}
+.bottommiddle {
+  display: flex;
+  flex-direction: row;
+}
+.bottommiddle > div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bottommiddle > div {
+  width: 25%;
+  height: 300px;
+}
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: aquamarine;
+}
+img {
+  border-radius: 50%;
+  width: 35px;
+}
+.Emily, .Thomas, .Jennie{
+  width: 25%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.persons{
+  display: flex;
+  gap: 15px;
+position: absolute;
+left: 200px;
+top: 150px;
+}
