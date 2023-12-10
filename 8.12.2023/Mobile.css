@@ -4,22 +4,47 @@
     box-sizing: border-box;
 }
 main{
-    max-width: 300px;
-    border: 1px solid;
+    max-width: 400px;
 }
 header{
     background-image: url(./images/desktop/image-header.jpg);
     background-position: center;
     background-size: cover;
     width:100%;
-    height: 350px;
+    height: 550px;
+    position: relative;
+}
+header>h2{
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+header>.menu{
+    position: absolute;
+    left: 350px;
+    top: 35px;
+}
+header>span{
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 90px;
+    top: 130px;
+    font-size: 40px;
+}
+header>img{
+    width: 30px;
+    position: absolute;
+    left: 190px;
+    top: 250px;
 }
 .egg{
     background-image: url(./images/desktop/image-transform.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 230px;
+    height: 350px;
 }
 .transform{
     width: 100%;
