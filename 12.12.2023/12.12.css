@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+main {
+  max-width: 1000px;
+  max-height: 540px;
+  position: relative;
+  top: 150px;
+}
+.DJ {
+  display: flex;
+}
+.DJ > div {
+  margin: 10px 10px 10px 10px;
+}
+.Daniel {
+  background-color: rgb(115, 63, 200);
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+}
+.Jonathan {
+  background-color: rgb(73, 85, 107);
+  width: 230px;
+  height: 250px;
+  border-radius: 10px;
+}
+.Kira {
+  background-color: white;
+  width: 230px;
+  height: 510px;
+  border-radius: 10px;
+}
+.JPK {
+  display: flex;
+  position: absolute;
+  top: 10px;
+}
+.JPK > div {
+  margin: 0px 10px 10px 10px;
+}
+.Jeanette {
+  background-color: white;
+  width: 230px;
+  height: 250px;
+  border-radius: 10px;
+  position: relative;
+  top: 260px;
+}
+.Patrick {
+  background-color: rgb(24, 32, 45);
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  position: relative;
+  top: 260px;
+}
+.DJ > div,
+.JPK > div {
+  box-shadow: 1px 1px 7px 1px darkgray;
+}
+.DPFP {
+  border: 2px solid gray;
+  border-radius: 50%;
+  width: 30px;
+  position: relative;
+  left: 40px;
+  top: 25px;
+}
+.Dan {
+  position: relative;
+  left: 80px;
+  bottom: 10px;
+}
+h5 {
+  color: white;
+}
+span {
+  color: rgb(169, 169, 169, 0.7);
+  font-size: 13px;
+}
+.h5 {
+  color: black;
+}
+.Danmess {
+  width: 480px;
+  position: relative;
+  top: 10px;
+  left: 35px;
+  font-size: 15px;
+  color: white;
+}
+.Daninfo {
+  position: relative;
+  top: 30px;
+  left: 35px;
+  font-size: 11px;
+  width: 450px;
+  color: darkgray;
+}
+.JonPFP {
+  border-radius: 50%;
+  border: 2px solid darkgray;
+  width: 28px;
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+.Jon {
+  position: relative;
+  left: 70px;
+  bottom: 15px;
+}
+.Jonmess {
+  color: white;
+  position: relative;
+  left: 30px;
+}
+.Joninfo {
+  color: darkgray;
+  font-size: 11px;
+  width: 170px;
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
+.KPFP {
+  border-radius: 50%;
+  border: 2px solid darkgray;
+  width: 28px;
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+.kira {
+  position: relative;
+  left: 70px;
+  bottom: 15px;
+}
+.Kiramess {
+  width: 170px;
+  position: relative;
+  left: 30px;
+  top: 5px;
+}
+.Kirainfo {
+  color: darkgray;
+  width: 160px;
+  font-size: 12px;
+  position: relative;
+  left: 30px;
+  top: 25px;
+}
+.JanPFP {
+  border-radius: 50%;
+  border: 2px solid darkgray;
+  width: 30px;
+  position: relative;
+  left: 30px;
+  top: 25px;
+}
+.jeane {
+  position: relative;
+  left: 75px;
+  bottom: 10px;
+}
+.Jeanemess {
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+.Jeaneinfo {
+  color: darkgray;
+  width: 180px;
+  font-size: 12px;
+  position: relative;
+  left: 30px;
+  top: 35px;
+}
+.PatPFP {
+  border-radius: 50%;
+  border: 2px solid darkgray;
+  width: 30px;
+  position: relative;
+  left: 30px;
+  top: 25px;
+}
+.patrick {
+  position: relative;
+  left: 75px;
+  bottom: 10px;
+}
+.Patmess {
+  color: white;
+  position: relative;
+  left: 25px;
+}
+.Patinfo {
+  width: 450px;
+  font-size: 12px;
+  color: darkgray;
+  position: relative;
+  left: 25px;
+  top: 30px;
+}
