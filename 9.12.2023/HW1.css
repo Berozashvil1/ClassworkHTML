@@ -15,6 +15,57 @@ main {
   background-size: cover;
   position: relative;
 }
+.header > h2 {
+  color: white;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.righthead {
+  position: absolute;
+  left: 620px;
+  top: 35px;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.righthead > h4 {
+  color: white;
+}
+.righthead>h4:hover{
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+h5 {
+  text-align: center;
+  padding: 6px;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  position: relative;
+  bottom: 5px;
+  border-radius: 25px;
+}
+h5:hover{
+  background-color: rgb(255, 255, 255, 0.5);
+  transform: scale(1.4);
+  transition: 1.5s;
+}
+h6{
+  text-decoration: underline red;
+}
+h1 {
+  color: white;
+  position: absolute;
+  left: 350px;
+  top: 140px;
+}
+.header > img {
+  position: absolute;
+  width: 30px;
+  left: 490px;
+  top: 230px;
+}
 .upperleft,
 .middleright,
 .whitemiddle {
@@ -24,6 +75,7 @@ main {
   position: relative;
 }
 .transform {
+  width: 55%;
   position: absolute;
   top: 150px;
   left: 100px;
@@ -130,23 +182,67 @@ main {
   width: 100%;
   height: 250px;
   background-color: aquamarine;
+  position: relative;
 }
-img {
+.Emily>img,.Thomas>img, .Jennie>img {
   border-radius: 50%;
   width: 35px;
 }
-.Emily, .Thomas, .Jennie{
+.Emily,
+.Thomas,
+.Jennie {
   width: 25%;
   height: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: white;
 }
-.persons{
+.Emily:hover, .Thomas:hover, .Jennie:hover{
+  border: 2px solid;
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+.persons {
   display: flex;
   gap: 15px;
-position: absolute;
-left: 200px;
-top: 150px;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+}
+.footer > h2 {
+  position: absolute;
+  left: 450px;
+  top: 50px;
+  color:darkcyan;
+}
+.footermiddle{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 355px;
+  top: 110px;
+  color: darkcyan;
+}
+.footermiddle>h4:hover{
+  color: black;
+  transform: scale(2);
+  transition: 2s;
+}
+.icons>img{
+  width: 15px;
+}
+.icons>img:hover{
+  transform: scale(2.5);
+  transition: 1.5s ease;
+}
+.icons{
+  width: 16%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 420px;
+  top: 200px;
 }
