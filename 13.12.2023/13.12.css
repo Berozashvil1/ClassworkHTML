@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.main{
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 1000px;
+}
+a{
+    text-decoration: none;
+    color: #797979;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    color: #797979;
+    font-size: 17px;
+    font-weight: 600;
+}
+header a:hover{
+    color: black;
+    transition: 0.2s;
+}
+.arrow{
+    position: relative;
+    left: 60px;
+    top: -15px;
+    width:12px;
+    height: 12px;
+    background-image: url('./images/icon-arrow-down.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.arrow:hover{
+    background-image: url(./images/icon-arrow-up.svg);
+    transition-delay: initial;
+}
+.logo{
+    width: 60px;
+}
+.featuresmenu, .companymenu{
+    position: relative;
+}
+nav{
+    display: flex;
+}
+nav>a, div{
+    margin: 0px 15px;
+}
+.menu{
+    position: absolute;
+    left: -80px;
+    top: 30px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px 0px;
+    visibility: hidden;
+}
+.icons, .list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.featuresmenu:hover .menu, .companymenu:hover .comenu{
+    visibility: visible;
+}
+.comenu{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 120px;
+    position: absolute;
+    padding: 15px 15px;
+    top: 30px;
+    gap: 15px;
+    visibility: hidden;
+}
+.menu, .comenu{
+    box-shadow: 1px 1px 7px 1px darkgray;
+}
+.rightnav{
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+.register{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 100px;
+    top: -10px;
+}
+.middle{
+    max-width: 1000px;
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+}
+.leftside{
+    width: 50%;
+    height: 600px;
+}
+.make{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.text{
+    position:relative;
+    left: 50px;
+    top: 140px;
+    width: 350px;
+}
+.Learnmore{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 12px 18px;
+    font-weight: 600;
+}
+span:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 1s;
+}
+.images{
+    width: 450px;
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.databiz{
+    height: 15px;
+}
+.audiophile{
+    height: 25px;
+}
+.meet{
+    width: 70px;
+    height: 15px;
+}
+.maker{
+    height: 20px;
+}
+.rightside{
+    width: 50%;
+}
+.rightside>img{
+    width: 450px;
+}
