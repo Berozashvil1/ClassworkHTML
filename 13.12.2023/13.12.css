@@ -38,10 +38,11 @@ header a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition-delay: 1s;
 }
 .arrow:hover{
     background-image: url(./images/icon-arrow-up.svg);
-    transition-delay: initial;
+    transition-delay: 0.2s;
 }
 .logo{
     width: 60px;
@@ -66,6 +67,7 @@ nav>a, div{
     border-radius: 10px;
     padding: 15px 0px;
     visibility: hidden;
+    transition-delay: 1s;
 }
 .icons, .list{
     display: flex;
@@ -136,6 +138,7 @@ nav>a, div{
     height: 45px;
     border-radius: 10px;
     background-color: black;
+    border: 1px solid black;
     color: white;
     padding: 12px 18px;
     font-weight: 600;
