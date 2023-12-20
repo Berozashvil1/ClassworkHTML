@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    width: 80vw;
+    height: 45vw; 
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.purplebg{
+    flex-grow: 2;
+    background-image: url(./images/bg-main-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cards{
+    margin: 5vw 6vw;
+    width: 30vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+.cards>div{
+    width: 25vw;
+    height: 15vw;
+}
+.cardfront{
+    width: 20vw;
+    height: 15vw;
+    background-image: url(./images/bg-card-front.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vw;
+}
+.cardback{
+    width: 25vw;
+    height: 15vw;
+    background-image: url(./images/bg-card-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vw;
+    margin-left: 7vw;
+}
+.cardback>span{
+    color: white;
+    display: flex;
+    padding-top: 6.5vw;
+    padding-left: 20vw;
+    font-size: 1.4vw;
+}
+.cardlogo{
+    position: absolute;
+    width: 5vw;
+    height: 2.5vw;
+    left: 2vw;
+    top: 2vw;
+}
+.frontinfo{
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 7.5vw;
+    padding-left: 2vw;
+}
+.cardnum{
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
+}
+.name{
+    padding-top:3vw;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+}
+.date{
+    padding-top: 3vw;
+    padding-left: 9.5vw;
+    font-size: 1vw;
+}
+.whitebg{
+ background-color: white;
+ flex-grow: 3;
+ display: flex;
+ align-items: center;
+}
+.cardinfo{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+input{
+    height: 3vw;
+    border-radius: 1vw;
+    border-color: rgb(197, 196, 196);
+    padding: 1vw;
+    margin-top: 0.5vw;
+    font-size: 1vw;
+}
+.cardname>input, .cardnumber>input{
+    width: 20vw;
+}
+.expdate>input{
+    width: 4vw;
+}
+.cvc>input{
+    width: 11vw;
+}
+.date-cvc{
+    display: flex;
+    gap: 1.5vw;
+}
+.Confirm{
+    background-color: rgb(35, 6, 48);
+    color: white;
+    font-size: 1vw;
+}
+label{
+    font-size: 1vw;
+}
