@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(241, 238, 238);
+}
+main {
+  width: 100%;
+  position: relative;
+}
+nav > img {
+  width: 45px;
+}
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.burger {
+  width: 30px;
+  height: 30px;
+  background-image: url(./assets/images/icon-menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+@font-face {
+  font-family: menufont;
+  src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+@font-face {
+  font-family: extrabold;
+  src: url(./assets/fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: weakbold;
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+menu {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 160px;
+  padding-left: 30px;
+  gap: 20px;
+  font-size: 20px;
+}
+.burger:hover {
+  background-image: url(./assets/images/icon-menu-close.svg);
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.burger:hover ~ menu {
+  width: 60%;
+  height: 100%;
+  overflow: visible;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+}
+menu:hover {
+  width: 60%;
+  height: 100%;
+  overflow: visible;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+menu > a {
+  font-family: menufont;
+  color: black;
+}
+.middle {
+  width: 100%;
+  margin-top: 30px;
+}
+.upper-mid {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.upmid-img {
+  width: 100%;
+}
+.upper-mid > span {
+  width: 85%;
+  font-size: 50px;
+  font-family: extrabold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.upper-mid > p {
+  color: rgb(131, 130, 130);
+  line-height: 25px;
+  padding-top: 30px;
+  font-size: 18px;
+}
+.upper-mid >a>input {
+  width: 40%;
+  height: 40px;
+  background-color: rgb(242, 91, 85);
+  color: white;
+  letter-spacing: 3px;
+  border: none;
+  margin-top: 30px;
+}
+.lower-mid{
+    width: 90%;
+    height: 550px;
+    background-color: rgb(3, 0, 25);
+    margin: 0 auto;
+}
+.head{
+    color: rgb(237, 170, 99);
+    font-family: weakbold;
+    font-size: 40px;
+    padding: 20px;
+}
+.lower-mid>div{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.title{
+    color: white;
+    font-size: 25px;
+    font-family: weakbold;
+}
+.text{
+    color: darkgray;
+    font-size: 19px;
+    line-height: 30px;
+    padding-top: 15px;
+    font-family: regular;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.topics{
+    margin-bottom: 100px;
+}
+.topics>div{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.retro-pcs{
+    width: 130px;
+}
+.info{
+    width: 60%;
+}
+.info>span{
+    font-size: 40px;
+    font-family: weakbold;
+    color: darkgray;
+}
+.header{
+    font-family: weakbold;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.infotext{
+    color: rgb(133, 133, 133);
+    font-family: regular;
+    word-spacing: 5px;
+}
