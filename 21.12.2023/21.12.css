@@ -85,7 +85,6 @@ main{
 }
 .icon:hover+.answer{
     display: flex;
-    transition: 1s;
 }
 .answer:hover{
     display: flex;
