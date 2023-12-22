@@ -25,6 +25,7 @@ main{
     border-radius: 4%;
     bottom: 15%;
     left: 32.5%;
+    font-family: bold;
 }
 .lowerbg{
     width: 100%;
@@ -57,9 +58,12 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 0.85vw;
+    font-size: 0.7vw;
     margin-bottom: 5%;
     flex-wrap: wrap;
+}
+.question>p{
+    font-family: bold;
 }
 .answer{
     margin-top: 5%;
@@ -67,8 +71,6 @@ main{
     width: 100%;
 }
 .icon{
-    width: 6%;
-    height: 6%;
     background-image: url(./assets/images/icon-plus.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -107,7 +109,7 @@ hr{
     display: flex;
     height: 7%;
     justify-content: space-between;
-    font-size: 0.85vw;
+    font-size: 0.70vw;
     flex-wrap: wrap;
 }
 .answer2{
