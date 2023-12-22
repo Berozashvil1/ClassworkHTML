@@ -83,7 +83,7 @@ main{
     background-image: url(./assets/images/icon-minus.svg);
     transition: 0.3s;
 }
-.icon:hover+.answer{
+.icon:hover~.answer{
     display: flex;
 }
 .answer:hover{
