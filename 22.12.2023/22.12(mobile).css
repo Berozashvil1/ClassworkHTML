@@ -103,8 +103,13 @@ menu > a {
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.upmid-img {
-  width: 100%;
+.upmid-bg {
+  width: 450px;
+  height: 450px;
+  background-image: url(./assets/images/image-web-3-mobile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .upper-mid > span {
   width: 85%;
@@ -114,13 +119,13 @@ menu > a {
   flex-wrap: wrap;
   padding-top: 20px;
 }
-.upper-mid > p {
+.text-input > p {
   color: rgb(131, 130, 130);
   line-height: 25px;
   padding-top: 30px;
   font-size: 18px;
 }
-.upper-mid >a>input {
+.text-input >a>input {
   width: 40%;
   height: 40px;
   background-color: rgb(242, 91, 85);
