@@ -161,7 +161,7 @@ main {
     font-weight: 600;
     color: gray;
   }
-  .top>input{
+  .top > input {
     width: 1vw;
     height: 1vw;
   }
@@ -174,35 +174,35 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 3%;
-    margin:3vw 0;
+    margin: 3vw 0;
   }
   .container > hr {
     width: 80%;
   }
   .price {
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 600;
-    margin: 2vw 0;
+    margin: 1vw 0;
   }
   .basic,
   .storage,
   .users,
   .send {
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     font-weight: 600;
     color: rgb(113, 110, 140);
   }
   .basic {
-    font-size: 2vw;
-    margin-top: 2.5vw;
+    font-size: 1.7vw;
+    margin-top: 2vw;
   }
   .container > input {
     width: 80%;
-    height: 3.5vw;
-    border-radius: 1vw;
+    height: 3vw;
+    border-radius: 0.5vw;
     background-color: rgb(163, 154, 234);
     color: white;
-    font-size: 1vw;
+    font-size: 0.7vw;
     font-weight: 600;
     letter-spacing: 0.3vw;
     margin: 1.5vw;
@@ -217,13 +217,13 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 3%;
-    margin-bottom: 3;
+    margin-bottom: 3vw;
   }
   .container-purple > hr {
     width: 80%;
   }
   .container-purple > .price {
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 600;
     margin: 2vw 0;
     color: white;
@@ -232,21 +232,21 @@ main {
   .container-purple > .storage,
   .container-purple > .users,
   .container-purple > .send {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     font-weight: 600;
     color: white;
   }
   .container-purple > .basic {
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin-top: 3vw;
   }
   .container-purple > input {
     width: 80%;
-    height: 3.8vw;
-    border-radius: 1vw;
+    height: 5vw;
+    border-radius: 0.5vw;
     background-color: white;
     color: rgb(163, 154, 234);
-    font-size: 1.1vw;
+    font-size: 1vw;
     font-weight: 600;
     letter-spacing: 0.3;
     margin: 2vw;
