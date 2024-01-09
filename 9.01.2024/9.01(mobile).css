@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: aliceblue;
+}
+main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.top-bg {
+  width: 100%;
+  height: 870px;
+  background-image: url(./images/bg-top.svg);
+  background-position: 250px -50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.absolute {
+  width: 90%;
+  position: absolute;
+  left: 5%;
+  top: 250px;
+}
+.top {
+  position: absolute;
+  left: 10%;
+  top: 50px;
+  width: 80%;
+  text-align: center;
+}
+.top > p {
+  font-size: 45px;
+  font-weight: 600;
+  color: rgb(113, 110, 140);
+  margin-bottom: 50px;
+}
+.top > label {
+  font-size: 17px;
+  font-weight: 600;
+  color: gray;
+}
+.container {
+  width: 100%;
+  height: 550px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3%;
+  margin-bottom: 30px;
+}
+.container > hr {
+  width: 80%;
+}
+.price {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 25px 0;
+}
+.basic,
+.storage,
+.users,
+.send {
+  font-size: 23px;
+  font-weight: 600;
+  color: rgb(113, 110, 140);
+}
+.basic {
+  font-size: 25px;
+  margin-top: 30px;
+}
+.container > input {
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(163, 154, 234);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin: 20px;
+  border-color: rgb(163, 154, 234);
+}
+.container-purple {
+  width: 100%;
+  height: 550px;
+  background-color: rgb(151, 141, 229);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3%;
+  margin-bottom: 30px;
+}
+.container-purple > hr {
+  width: 80%;
+}
+.container-purple > .price {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 25px 0;
+  color: white;
+}
+.container-purple > .basic,
+.container-purple > .storage,
+.container-purple > .users,
+.container-purple > .send {
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+.container-purple > .basic {
+  font-size: 25px;
+  margin-top: 30px;
+}
+.container-purple > input {
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(163, 154, 234);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin: 20px;
+  border-color: white;
+}
+@media only screen and (min-width: 501px) {
+  main {
+    width: 97vw;
+    height: fit-content;
+  }
+  .top-bg {
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 90vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .absolute {
+    display: flex;
+    justify-content: center;
+    top: 20vw;
+  }
+  .top > p {
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: rgb(113, 110, 140);
+    margin-bottom: 4vw;
+  }
+  .top > label {
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: gray;
+  }
+  .top>input{
+    width: 1vw;
+    height: 1vw;
+  }
+  .container {
+    width: 20%;
+    height: 30vw;
+    background-color: white;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+    margin:3vw 0;
+  }
+  .container > hr {
+    width: 80%;
+  }
+  .price {
+    font-size: 6vw;
+    font-weight: 600;
+    margin: 2vw 0;
+  }
+  .basic,
+  .storage,
+  .users,
+  .send {
+    font-size: 1.7vw;
+    font-weight: 600;
+    color: rgb(113, 110, 140);
+  }
+  .basic {
+    font-size: 2vw;
+    margin-top: 2.5vw;
+  }
+  .container > input {
+    width: 80%;
+    height: 3.5vw;
+    border-radius: 1vw;
+    background-color: rgb(163, 154, 234);
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: 0.3vw;
+    margin: 1.5vw;
+    border-color: rgb(163, 154, 234);
+  }
+  .container-purple {
+    width: 25%;
+    height: 35vw;
+    background-color: rgb(151, 141, 229);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+    margin-bottom: 3;
+  }
+  .container-purple > hr {
+    width: 80%;
+  }
+  .container-purple > .price {
+    font-size: 6vw;
+    font-weight: 600;
+    margin: 2vw 0;
+    color: white;
+  }
+  .container-purple > .basic,
+  .container-purple > .storage,
+  .container-purple > .users,
+  .container-purple > .send {
+    font-size: 1.7vw;
+    font-weight: 600;
+    color: white;
+  }
+  .container-purple > .basic {
+    font-size: 2vw;
+    margin-top: 3vw;
+  }
+  .container-purple > input {
+    width: 80%;
+    height: 3.8vw;
+    border-radius: 1vw;
+    background-color: white;
+    color: rgb(163, 154, 234);
+    font-size: 1.1vw;
+    font-weight: 600;
+    letter-spacing: 0.3;
+    margin: 2vw;
+    border-color: white;
+  }
+}
