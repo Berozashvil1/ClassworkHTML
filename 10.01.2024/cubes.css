@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincube{
+    width: 403px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    border: 1px solid black;
+    position: relative;
+}
+.redcube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform-origin: top left;
+    animation: redcube 3s 2;
+    animation-direction: alternate;
+}
+.bluecube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transform-origin: top right;
+    animation: bluecube 3s 2;
+    animation-direction: alternate;
+}
+.greencube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transform-origin: bottom left;
+    animation: bluecube 3s 2;
+    animation-direction: alternate;
+}
+.yellowcube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transform-origin: bottom right;
+    animation: redcube 3s 2;
+    animation-direction: alternate;
+}
+@keyframes redcube {
+    0%{}
+    100%{transform: rotate(90deg);}
+}
+@keyframes bluecube {
+    0%{}
+    100%{transform: rotate(-90deg);}
+}

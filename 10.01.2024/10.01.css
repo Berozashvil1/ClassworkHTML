@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sun{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(238, 208, 35);
+    border-radius: 50%;
+    position: absolute;
+    left: 52%;
+    top: 30%;
+    animation: sun 4s infinite;
+    animation-timing-function: linear;
+}
+.cloud1{
+    width: 350px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    animation: cloud1 10s infinite;
+    animation-timing-function:linear;
+}
+.cloud2{
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    animation: cloud2 10s infinite;
+    animation-timing-function:linear;
+}
+.cloud3{
+    width: 350px;
+    position: absolute;
+    top: 25%;
+    right: 45%;
+    animation: cloud3 10s infinite;
+    animation-timing-function:linear;
+}
+.mountain{
+    width: 1000px;
+    position: absolute;
+    bottom: -1%;
+    left: 25%;
+    animation: mountain 10s infinite;
+}
+@keyframes sun {
+    0%{}
+    30%{top: 60%;}
+    75%{top: 0;}
+    100%{top: 30;}
+}
+@keyframes mountain {
+    0%{}
+    50%{transform: scale(1.1);}
+    100%{}
+}
+@keyframes cloud1 {
+    0%{}
+    10%{left: 5%;}
+    60%{left: 80%;}
+    100%{left: 15%;}
+}
+@keyframes cloud2 {
+    0%{}
+    15%{right: 0;}
+    65%{right: 80%;}
+    100%{right: 20%;}
+}
+@keyframes cloud3 {
+    0%{}
+    25%{right: 80%;}
+    75%{right: 0;}
+    100%{right: 45%}
+}

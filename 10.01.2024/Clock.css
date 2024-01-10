@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clock {
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+.seconds {
+  position: absolute;
+  left: 248px;
+  top: 50px;
+  width: 2px;
+  height: 200px;
+  background-color: black;
+  animation: clock 60s infinite;
+  transform-origin: bottom center;
+  animation-timing-function: linear;
+}
+.minutes {
+  position: absolute;
+  left: 247px;
+  top: 70px;
+  width: 4px;
+  height: 180px;
+  background-color: red;
+  animation: clock 3600s infinite;
+  transform-origin: bottom center;
+  animation-timing-function: linear;
+}
+.hours {
+  position: absolute;
+  left: 245px;
+  top: 100px;
+  width: 8px;
+  height: 150px;
+  background-color:black;
+  animation: clock 86400s infinite;
+  transform-origin: bottom center;
+  animation-timing-function: linear;
+}
+@keyframes clock {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+.clock>p{
+    font-size: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.h12{
+    left: 50%;
+    top: 20px;
+}
+.h6{
+    left: 50%;
+    bottom: -20px;
+}
+.h3{
+    right: 0;
+    top: 50%;
+}
+.h9{
+    left: 20px;
+    top: 50%;
+}
+.h1{
+    left: 73%;
+    top: 11%;
+}
+.h2{
+    left: 90%;
+    top: 27%;
+}
+.h4{
+    left: 90%;
+    top: 73%;
+}
+.h5{
+    left: 73%;
+    top: 90%;
+}
+.h7{
+    left: 27%;
+    top: 90%;
+}
+.h8{
+    left: 10%;
+    top: 73%;
+}
+.h10{
+    left: 10%;
+    top: 27%;
+}
+.h11{
+    left: 27%;
+    top: 11%;
+}
