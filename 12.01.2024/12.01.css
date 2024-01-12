@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 500px;
+  background-image: url(./images/mobile-image-hero-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 30px;
+  position: relative;
+}
+nav {
+  width: 55%;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.burger {
+  width: 20px;
+  height: 15px;
+  background-image: url(./images/icon-hamburger.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+  z-index: 2;
+}
+.burger:hover {
+  width: 20px;
+  height: 15px;
+  background-image: url(./images/icon-close.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.burger:hover ~ menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  transition: 1s;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-top: 45px;
+}
+menu {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+menu:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  transition: 1s;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-top: 45px;
+}
+menu:hover ~ .burger {
+  width: 20px;
+  height: 15px;
+  background-image: url(./images/icon-close.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+menu > a {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.arrows {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+  height: 80px;
+  display: flex;
+}
+.leftarrow {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  background-image: url(./images/icon-angle-left.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.rightarrow {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  background-image: url(./images/icon-angle-right.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.discover {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 50px auto;
+}
+.Discoverhead {
+  font-size: 50px;
+  font-weight: 600;
+}
+.discovertext {
+  font-size: 20px;
+  color: gray;
+  word-spacing: 1px;
+  line-height: 26px;
+  text-align: justify;
+}
+.shop {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shop > p {
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.shop > img {
+  width: 60px;
+  height: 20px;
+}
+.dark-bg {
+  width: 100%;
+  height: 330px;
+  background-image: url(./images/image-about-dark.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.furniture {
+  width: 80%;
+  margin: 50px auto;
+}
+.furniturehead {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+.furnituretext {
+  color: gray;
+  font-size: 20px;
+  text-align: justify;
+}
+.light-bg {
+  width: 100%;
+  height: 330px;
+  background-image: url(./images/image-about-light.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (min-width: 556px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  main {
+    border: 1px solid;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header {
+    width: 65%;
+    height: 35vw;
+    background-image: url(./images/desktop-image-hero-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vw;
+    padding-left: 3vw;
+    position: relative;
+  }
+  nav {
+    width: 65%;
+    height: 1vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .burger {
+    width: 20px;
+    height: 15px;
+    background-image: url(./images/icon-hamburger.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+    z-index: 2;
+    display: none;
+  }
+  .burger:hover {
+    width: 20px;
+    height: 15px;
+    background-image: url(./images/icon-close.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    display: none;
+  }
+  .burger:hover ~ menu {
+    position: relative;
+    width: 100%;
+    background-color: none;
+    transition: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-top: 0px;
+    display: none;
+  }
+
+  menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    overflow: visible;
+    background-color: transparent;
+  }
+  menu:hover {    
+    position: relative;
+    background-color: transparent;
+    transition: none;
+    display: flex;
+    justify-content: space-between;
+
+   
+  }
+  menu:hover ~ .burger {
+    width: 20px;
+    height: 15px;
+    background-image: url(./images/icon-close.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    display: none;
+  }
+  menu > a {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .discover {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px auto;
+  }
+  .Discoverhead {
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .discovertext {
+    font-size: 20px;
+    color: gray;
+    word-spacing: 1px;
+    line-height: 26px;
+    text-align: justify;
+  }
+}

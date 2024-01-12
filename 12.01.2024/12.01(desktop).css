@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+main{
+    border: 1px solid;
+    width: 100vw;
+}
+header{
+    width: 65%;
+    height: 35vw;
+    background-image: url(./images/desktop-image-hero-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 30px;
+    position: relative;
+}
+nav{
+    width: 65%;
+    height: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+menu>a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
