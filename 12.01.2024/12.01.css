@@ -181,14 +181,14 @@ menu > a {
 @media only screen and (min-width: 556px) {
  
   main {
-    border: 1px solid;
-    width: 100vw;
+    width: 90vw;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
   }
   header {
-    width: 65%;
-    height: 35vw;
+    width: 60%;
+    height: 30vw;
     background-image: url(./images/desktop-image-hero-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -209,26 +209,8 @@ menu > a {
     display: none;
   }
   .burger:hover {
-    /* width: 20px;
-    height: 15px;
-    background-image: url(./images/icon-close.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 2; */
     display: none;
   }
-  /* .burger:hover ~ menu {
-    position: relative;
-    width: 100%;
-    background-color: none;
-    transition: none;
-    display: flex;
-    justify-content: space-around;
-    padding-left: 0px;
-    padding-top: 0px;
-    display: none;
-  } */
 
   menu {
     width: 60%;
@@ -239,37 +221,20 @@ menu > a {
     pointer-events: none;
     margin-bottom: 1.5vw;
   }
-  /* menu:hover {
-    position: relative;
-    background-color: transparent;
-    transition: none;
-    display: flex;
-    justify-content: space-between;
-  } */
-  /* menu:hover ~ .burger {
-    width: 20px;
-    height: 15px;
-    background-image: url(./images/icon-close.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 2;
-    display: none;
-  } */
   menu > a {
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.15vw;
     font-weight: 600;
   }
   nav>img{
-    width: 5vw;
+    width: 4vw;
   }
   .arrows {
     position: absolute;
     bottom: 0;
-    right: -13vw;
-    width: 20%;
-    height: 6vw;
+    right: -8.1vw;
+    width: 15%;
+    height: 4.5vw;
     display: flex;
   }
   .leftarrow {
@@ -279,7 +244,7 @@ menu > a {
     background-image: url(./images/icon-angle-left.svg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1.5vw;
+    background-size: 1vw;
   }
   .rightarrow {
     width: 50%;
@@ -288,27 +253,92 @@ menu > a {
     background-image: url(./images/icon-angle-right.svg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1.5vw;
+    background-size: 1vw;
+  }
+  .leftarrow:hover{
+    background-color: gray;
+    transition: 0.5s;
+  }
+  .rightarrow:hover{
+    background-color: gray;
+    transition: 0.5s;
   }
   .discover {
-    width: 35%;
+    width: 40%;
+    height: 30vw;
     display: flex;
     flex-direction: column;
-    gap: 2vw;
-    margin: 4vw auto;
-    padding-left: 3%;
+    align-items: center;
+    gap: 1vw;
+    padding-top: 3.5vw;
+    margin: 0;
   }
   .Discoverhead {
-    width: 90%;
-    font-size: 3vw;
+    width: 60%;
+    font-size: 2.5vw;
     font-weight: 600;
   }
   .discovertext {
-    width: 80%;
-    font-size: 20px;
+    width: 60%;
+    font-size: 1vw;
     color: gray;
-    word-spacing: 1px;
-    line-height: 26px;
     text-align: justify;
+    line-height: 1.2vw;
   }
+  .shop {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 7.5vw;
+  }
+  .shop > p {
+    font-size: 1vw;
+    letter-spacing: 0.5vw;
+    font-weight: 600;
+  }
+  .shop>p:hover{
+    color: gray;
+  }
+  .shop > img {
+    width: 3vw;
+    height: 1vw;
+  }
+  .shop>img:hover{
+    background-color: gray;
+  }
+  .dark-bg {
+  width: 30%;
+  height: 17vw;
+  background-image: url(./images/image-about-dark.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.furniture {
+  width: 40%;
+  height: 17vw;
+  margin: 0;
+}
+.furniturehead {
+  margin: 4vw 10% 1vw ;
+  font-size: 1vw;
+  font-weight: 600;
+  letter-spacing: 0.3vw;
+}
+.furnituretext {
+  margin: 0 auto;
+  width: 80%;
+  color: gray;
+  font-size: 1vw;
+  text-align: justify;
+}
+.light-bg {
+  width: 30%;
+  height: 17vw;
+  background-image: url(./images/image-about-light.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }

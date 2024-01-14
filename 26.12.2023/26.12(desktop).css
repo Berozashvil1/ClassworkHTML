@@ -291,3 +291,341 @@ margin-top: 1vw;
   font-size: 1vw;
   margin-top: 1vw;
 }
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: font;
+  }
+  @font-face {
+    font-family: font;
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+  }
+  @font-face {
+    font-family: normbold;
+    src: url(./fonts/static/Inter-Bold.ttf);
+  }
+  body {
+    background-color: rgb(243, 245, 245);
+  }
+  main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  header {
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/image-hero-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header > a > img {
+    width: 40%;
+  }
+  nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10%;
+  }
+  .burger {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/icon-hamburger.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .burger:hover {
+    background-image: url(./images/icon-close-menu.svg);
+    transition: 0.2s;
+  }
+  .burger:hover ~ menu {
+    width: 85%;
+    height: 290px;
+    border-radius: 15px;
+    overflow: visible;
+    padding: 15px 0px 15px 0px;
+    transition: 0.2s;
+  }
+  menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 80%;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    right: 7.5%;
+    top:70px;
+    z-index: 2;
+    box-shadow: 2px 2px 10px 1px;
+    transition-delay: 0.5s;
+  }
+  menu > a {
+    color: black;
+    font-size: 25px;
+    padding-left: 30px;
+  }
+  menu:hover {
+    width: 85%;
+    height: 290px;
+    border-radius: 15px;
+    overflow: visible;
+    position: absolute;
+    right: 7.5%;
+    top:70px;
+    transition: 0.2s;
+    gap: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  menu>hr{
+    display: block;
+  }
+  .body {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    gap: 20px;
+  }
+  .mastercraft {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    background-color: white;
+  }
+  .mastercraft > img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .head {
+    width: 60%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: normbold;
+  }
+  .text {
+    width: 80%;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .buttons {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .backthis {
+    width: 80%;
+    height: 55px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgb(52, 181, 171);
+    border: 0;
+    color: white;
+  }
+  .bookmark {
+    width: 55px;
+    height: 55px;
+    background-image: url(./images/icon-bookmark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .stats {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .numbers {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .numbers > hr {
+    width: 50%;
+    height: 0;
+    margin: 0 auto;
+  }
+  .quantity {
+    text-align: center;
+  }
+  .number {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: normbold;
+  }
+  .out-of{
+    color: gray;
+    font-size: initial;
+  }
+  .bar{
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 50px;
+  }
+  .green{
+      width: 90%;
+      height: 20px;
+      background-color: rgb(53, 181, 171);
+      border-radius: 25px;
+      position: relative;
+      left: 10px;
+      z-index: 2;
+  }
+  .gray{
+      width: 25%;
+      height: 20px;
+      background-color: rgb(233, 233, 233);
+      border-radius: 25px;
+      position: relative;
+      right: 10px;
+  }
+  .aboutproject{
+      width: 100%;
+      height: 2100px;
+      background-color: white;
+      border-radius: 15px;
+  }
+  .aboutinfo{
+      width: 90%;
+      margin: 0 auto;
+  }
+  .abthead{
+      font-size: 25px;
+      font-weight: 600;
+      margin: 40px 0px;
+  }
+  .abt-txt{
+      width: 90%;
+      color: gray;
+      line-height: 30px;
+      font-size: 18px;
+  }
+  .bamboostand{
+      width: 80%;
+      height: 450px;
+      background-color: white;
+      border: 1px solid rgb(169, 169, 169, 0.4);
+      border-radius: 15px;
+      margin: 0 auto;
+       margin-top: 50px;
+      padding: 25px;
+      display: block;
+  }
+  .bamboohead{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .price{
+    font-size: 18px; 
+    color: rgb(53, 181, 171);
+    padding-bottom: 40px
+  }
+  .bambootext{
+    font-size: 18px;
+    color: gray;
+    line-height: 30px;
+    padding-bottom: 40px;
+  }
+  .stand-quantity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .num{
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .left{
+    color: gray;
+  }
+  .bamboostand>input{
+    width: 70%;
+    height: 50px;
+    background-color: rgb(53, 181, 171);
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  .mahogany{
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    border: 1px solid rgb(169, 169, 169, 0.2);
+    border-radius: 15px;
+    margin: 0 auto;
+     margin-top: 50px;
+    padding: 25px;
+  }
+  .mahohead{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0, 0.3);
+  }
+  .mahoprice{
+    font-size: 18px; 
+    color: rgb(53, 181, 171, 0.3);
+    padding-bottom: 40px
+  }
+  .mahotext{
+    font-size: 18px;
+    color: rgb(128, 128, 128, 0.3);
+    line-height: 30px;
+    padding-bottom: 40px;
+  }
+  .maho-quantity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 0, 0, 0.3);
+  }
+  .mahonum{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(0, 0, 0, 0.3);
+  }
+  .maholeft{
+    color: rgb(128, 128, 128, 0.3);
+  }
+  .mahogany>input{
+    width: 70%;
+    height: 50px;
+    background-color: rgb(0, 0, 0, 0.3);;
+    border: 0;
+    border-radius: 25px;
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+  }
+}
