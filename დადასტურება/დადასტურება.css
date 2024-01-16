@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: classicfont;
+    src: url(./fonts/Oswald-Medium.ttf);
+}
+@font-face {
+    font-family: prettyfont;
+    src: url(./fonts/GreatVibes-Regular.ttf);
+}
+main{
+    width: 100%;
+}
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 20%;
+}
+nav>img{
+    width: 7vw;
+}
+header{
+    width: 100%;
+    height: 35vw;
+    background-image: url(./image/image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7vw;
+}
+.letsrock{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.rock{
+    font-family: classicfont;
+    font-size: 6vw;
+    color: red;
+    font-weight: 600;
+}
+.with{
+    font-family: prettyfont;
+    font-size: 4vw;
+}
+header>input{
+    margin: 3vw 45%;
+    width: 10%;
+    height: 8%;
+    border-radius: 25vw;
+    border-color: red;
+    background-color: red;
+    color: white;
+    font-size: 0.6vw;
+    font-family: classicfont;
+    letter-spacing: 0.2vw;
+}
+.redline{
+    width: 100%;
+    height: 0.2vw;
+    background-color: red;
+}
+menu{
+    display: flex;
+    gap: 1vw;
+    font-size: 0.7vw;
+}
+menu>a{
+    color: white;
+    font-family: classicfont;
+    letter-spacing: 0.3vw;
+    border-top: 0px solid white;
+}
+menu > a::before {
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    content: "";
+    margin: 0 auto;
+    display: block;
+    transition: 0.5s;
+    margin-top: 5px;
+  }
+  
+  menu > a:hover::before {
+    width: 100%;
+    transition: 0.5s;
+  }
+.middle{
+    margin: 7vw auto;
+    width: 70%;
+}
+.photos{
+    margin-bottom: 5vw;
+}
+.intro{
+    font-family: classicfont;
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+}
+.our{
+    font-family: prettyfont;
+    font-size: 2.2vw;
+    color: red;
+}
+.images{
+    margin-top: 3vw;
+    display: flex;
+    gap: 2%;
+}
+.vocal{
+    width: 35%;
+    height: 30vw;
+    background-color: red;
+}
+.vocal>img{
+    width: 100%;
+}
+.vocal>.jone,.voc{
+    margin-left: 2vw;
+}
+.jone{
+    font-family: classicfont;
+    font-size: 1.6vw;
+    color: white;
+}
+.voc{
+    font-family: classicfont;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 255, 0.8);
+}
+.late{
+    font-family: classicfont;
+    font-size: 2vw;
+}
+.videos{
+    font-family: prettyfont;
+    font-size: 2.1vw;
+    color: red;
+    margin-bottom: 3vw;
+}
+video{
+    width: 100%;
+    height: 30vw;
+
+}
+.vid-bg{
+    width: 100%;
+    background-color: rgb(128, 128, 128, 0.3);
+    margin-bottom: 5vw;
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 1.5vw;
+    margin-bottom: 10vw;
+}
+th,td{
+    padding-left: 1vw;
+    height: 4vw;
+    font-family: classicfont;
+}
+.gray{
+    background-color: rgb(128, 128, 128, 0.2);
+}
+.gray>th{
+    color: red;
+}
+.red{
+    background-color: red;
+    height: 5vw;
+    color: white;
+}
+.newsletter{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter>input{
+    width: 50%;
+    border: none;
+    font-family: classicfont;
+    letter-spacing: 0.2vw;
+    color: rgb(0, 0, 0, 0.5);
+}
+.newsletter>img{
+   width: 1vw;
+   height: 1vw; 
+}
+.letter-hr{
+    width: 100%;
+    height: 0.4vw;
+    background-color: black;
+    margin-top: 0.5vw;
+}
+.footermenu{
+    margin: 5vw auto 3vw;
+    width: 35%;
+    font-family: classicfont;
+    font-size: 1.1vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footermenu>a{
+    color: gray;
+}
+.copyright{
+    margin: 0 auto 6vw;
+    width: 40%;
+    font-size: 1.1vw;
+    
+}
+b{
+    font-family: prettyfont;
+    color: red;
+    font-size: 1.8vw;
+}
+.mobile{display: none;}
+
+@media only screen and (max-width: 700px){
+    nav{
+        padding: 2% 5% 2% 5%;
+        justify-content: space-between;
+        position: relative;
+    }
+    nav>img{
+        width: 170px;
+        position: relative;
+        top: 0;
+        z-index: 2;
+    }
+    .burger{
+        width: 100px;
+        height: 85px;
+        background-image: url(./images/burger.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 2;
+    }
+    menu{
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        right: 25px;
+        flex-direction: column;
+        text-align: right;
+    }
+    .burger:hover~menu{
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 0, 0, 0.8);
+        justify-content: end;
+        font-size: 20px;
+    }
+    menu:hover{
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 0, 0, 0.8);
+        justify-content: end;
+        font-size: 20px;
+    }
+    menu > a::before {
+        width: 0%;
+        height: 3px;
+        background-color: white;
+        content: "";
+        margin: 0 0 0 88%;
+        display: block;
+        transition: 0.5s;
+        margin-top: 5px;
+      }
+    menu > a:hover::before {
+        margin: 0 0 0 89%;
+        width: 10%;
+        transition: 0.5s;
+      }
+    header{
+        width: 100%;
+        height: 340px;
+        background-position: center;
+        background-size:cover;
+    }
+    .letsrock{
+        width: 70%;
+        text-align: center;
+        margin-left: 145px;
+    }
+    .rock{
+        font-family: classicfont;
+        font-size: 60px;
+        color: red;
+        font-weight: 600;
+    }
+    .with{
+        font-family: prettyfont;
+        font-size: 40px;
+    }
+    header>input{
+        margin: 30px 0 0 55%;
+        width: 100px;
+        height: 25px;
+        border-radius: 25px;
+        border-color: red;
+        background-color: red;
+        color: white;
+        font-size: 7px;
+        font-family: classicfont;
+        letter-spacing: 2px;
+    }
+    .redline{
+        display: none;
+    }
+    .middle{
+        margin: 70px auto;
+        width: 98%;
+    }
+    .photos{
+        margin-bottom: 50px;
+    }
+    .intro{
+        font-family: classicfont;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .our{
+        font-family: prettyfont;
+        font-size: 35px;
+        color: red;
+    }
+    .images{
+        width: 100%;
+        margin-top: 50px;
+        display: block;
+    }
+    .vocal{
+        width: 100%;
+        height: 600px;
+        background-color: red;
+        margin-bottom: 50px;
+    }
+    .vocal>img{
+        width: 100%;
+    }
+    .vocal>.jone,.voc{
+        margin-left: 20px;
+    }
+    .jone{
+        font-family: classicfont;
+        font-size: 22px;
+        color: white;
+        margin-top: 10px;
+    }
+    .voc{
+        font-family: classicfont;
+        font-size: 18px;
+        color: rgb(255, 255, 255, 0.8);
+    }
+    .late{
+        font-family: classicfont;
+        font-size: 45px;
+    }
+    .videos{
+        font-family: prettyfont;
+        font-size: 35px;
+        color: red;
+        margin-bottom: 3vw;
+    }
+    .main-hr{
+        display: none;
+    }
+    video{
+        width: 100%;
+        height: 200px;
+    }
+    .vid-bg{
+        width: 100%;
+        background-color: rgb(128, 128, 128, 0.3);
+        margin-bottom: 80px;
+    }
+    table{
+        display: none;
+    }
+    .newsletter{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .newsletter>input{
+        width: 80%;
+        border: none;
+        font-family: classicfont;
+        letter-spacing: 3px;
+        font-size: 15px;
+        color: rgb(0, 0, 0, 0.7);
+    }
+    .newsletter>img{
+       width: 10px;
+       height: 10px; 
+    }
+    .letter-hr{
+        width: 100%;
+        height: 5px;
+        background-color: black;
+        margin-top: 10px;
+    }
+    .footermenu{
+        display: none;
+    }
+    .copyright{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        margin-bottom: 100px;
+    }
+    .mobile>b{
+        color: red;
+        font-size: 35px;
+        font-family: classicfont;
+    }
+}
