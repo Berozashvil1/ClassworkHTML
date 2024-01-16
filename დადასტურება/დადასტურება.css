@@ -85,7 +85,6 @@ menu > a::before {
     margin: 0 auto;
     display: block;
     transition: 0.5s;
-    margin-top: 5px;
   }
   
   menu > a:hover::before {
