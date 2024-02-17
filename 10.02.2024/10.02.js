@@ -55,49 +55,62 @@
 // }
 // else{console.log(fName + ' is an old man')}
 
- const johnTeamScore=[109,90,116]
- const michaelTeamScore=[118,87,110]
- const maryTeamScore=[91,131,93]
-
-
-let johnTeamSum=0
-let michaelTeamSum=0
-let maryTeamSum=0
+const johnTeamScore = [109, 90, 116]
+const michaelTeamScore = [118, 87, 110]
+const maryTeamScore = [91, 131, 93]
 
 
 
-for (let i=0; i<johnTeamScore.length; i++){
-    johnTeamSum += johnTeamScore[i]
+let michaelTeamSum = 0
+let maryTeamSum = 0
+
+
+
+function sum(team) {
+    let team = 0
+    for (let i = 0; i < team.length; i++) {
+        team += team[i]
+    }
+    return team
 }
-johnTeamAvg=johnTeamSum/johnTeamScore.length
+
+johnTeamAvg = johnTeamSum / johnTeamScore.length
 console.log(johnTeamAvg)
 
 
 
-for (let i=0; i<michaelTeamScore.length; i++){
-    michaelTeamSum += michaelTeamScore[i]
-}
-michaelTeamAvg=michaelTeamSum/michaelTeamScore.length
-console.log(michaelTeamAvg)
+// for (let i=0; i<johnTeamScore.length; i++){
+//     johnTeamSum += johnTeamScore[i]
+// }
+// johnTeamAvg=johnTeamSum/johnTeamScore.length
+// console.log(johnTeamAvg)
 
 
 
-for (let i=0; i<maryTeamScore.length; i++){
-    maryTeamSum += maryTeamScore[i]
-}
-maryTeamAvg=maryTeamSum/maryTeamScore.length
-console.log(maryTeamAvg)
+// for (let i=0; i<michaelTeamScore.length; i++){
+//     michaelTeamSum += michaelTeamScore[i]
+// }
+// michaelTeamAvg=michaelTeamSum/michaelTeamScore.length
+// console.log(michaelTeamAvg)
+
+
+
+// for (let i=0; i<maryTeamScore.length; i++){
+//     maryTeamSum += maryTeamScore[i]
+// }
+// maryTeamAvg=maryTeamSum/maryTeamScore.length
+// console.log(maryTeamAvg)
 
 
 
 
-if(johnTeamAvg>michaelTeamAvg && johnTeamAvg>maryTeamAvg){
+if (johnTeamAvg > michaelTeamAvg && johnTeamAvg > maryTeamAvg) {
     console.log("Winner is John's team")
 }
-else if(michaelTeamAvg>johnTeamAvg && michaelTeamAvg>maryTeamAvg){
+else if (michaelTeamAvg > johnTeamAvg && michaelTeamAvg > maryTeamAvg) {
     console.log("Winner is Michael's team")
 }
-else if(maryTeamAvg>johnTeamAvg && maryTeamAvg>michaelTeamAvg){
+else if (maryTeamAvg > johnTeamAvg && maryTeamAvg > michaelTeamAvg) {
     console.log("Winner is Mary's team")
 }
-else{console.log('It\' a draw')}
+else { console.log('It\' a draw') }
