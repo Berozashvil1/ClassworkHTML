@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+}
+
+form{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+
+
+input{
+    width: 90%;
+    height: 15%;
+    margin: 0 5%;
+    background-color: rgb(170, 169, 169);
+}
+
+button{
+    width: 30%;
+    height: 10%;
+    margin: 5% 35%;
+}
