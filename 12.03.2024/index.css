@@ -1,0 +1,42 @@
+main {
+    width: 600px;
+    margin: 10px auto;
+    font-size: 30px;
+    border:1px solid green;
+    display: flex;
+    flex-direction: column;
+  }
+    form {
+        margin: 50px auto;
+        width: 360px;
+        gap: 20px;
+    }
+
+    form>input {
+        width: 350px;
+    }
+
+    .fullname{
+        display: flex;
+        gap: 5px;
+    }
+
+    .gender {
+        margin: 0 auto;
+    }
+
+    .submit {
+        width: 100px;
+        margin: 0 35%;
+    }
+
+    table,
+    thead,
+    tbody,
+    tr,
+    td,
+    th {
+        border-collapse: collapse;
+        border: 1px solid red;
+        font-size: 29px;
+    }

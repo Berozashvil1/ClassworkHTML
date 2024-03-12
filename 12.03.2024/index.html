@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body>
+    <main>
+        <form class="form">
+            <div class="fullname">
+                <input type="text" placeholder="Firstname" name="firstname" />
+                <input type="text" placeholder="Lastname" name="lastname" />
+            </div>
+            <input class="username" type="text" placeholder="Username" name="username" />
+            <input class="email" type="email" placeholder="Example@gmail.com" name="email" />
+            <input class="address" type="text" placeholder="Address" name="address" />
+            <input class="phone" type="tel" placeholder="123-456-789" name="phonenumber" />
+            </div>
+            <input class="submit" type="submit" value="SUBMIT" name="submit" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>email</th>
+                    <th>address</th>
+                    <th>phone</th>
+                    <th>actions</th>
+                </tr>
+            </thead>
+            <tbody class="users-list">
+                <tr>
+                    <td>id</td>
+                    <td>firstname</td>
+                    <td>lastname</td>
+                    <td>email</td>
+                    <td>address</td>
+                    <td>phone</td>
+                    <td class="icons">
+                        <img id="edit" src="./download (1).png" alt="">
+                        <img id="delete" src="./download.png" alt="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
