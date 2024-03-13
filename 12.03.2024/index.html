@@ -12,13 +12,13 @@
     <main>
         <form class="form">
             <div class="fullname">
-                <input type="text" placeholder="Firstname" name="firstname" />
-                <input type="text" placeholder="Lastname" name="lastname" />
+                <input type="text" placeholder="Firstname" name="firstname" required/>
+                <input type="text" placeholder="Lastname" name="lastname" required/>
             </div>
-            <input class="username" type="text" placeholder="Username" name="username" />
-            <input class="email" type="email" placeholder="Example@gmail.com" name="email" />
-            <input class="address" type="text" placeholder="Address" name="address" />
-            <input class="phone" type="tel" placeholder="123-456-789" name="phonenumber" />
+            <input class="username" type="text" placeholder="Username" name="username" required/>
+            <input class="email" type="email" placeholder="Example@gmail.com" name="email" required/>
+            <input class="address" type="text" placeholder="Address" name="address" required/>
+            <input class="phone" type="tel" placeholder="123-456-789" name="phonenumber" required minlength="9"/>
             </div>
             <input class="submit" type="submit" value="SUBMIT" name="submit" />
         </form>
@@ -35,18 +35,7 @@
                 </tr>
             </thead>
             <tbody class="users-list">
-                <tr>
-                    <td>id</td>
-                    <td>firstname</td>
-                    <td>lastname</td>
-                    <td>email</td>
-                    <td>address</td>
-                    <td>phone</td>
-                    <td class="icons">
-                        <img id="edit" src="./download (1).png" alt="">
-                        <img id="delete" src="./download.png" alt="">
-                    </td>
-                </tr>
+               
             </tbody>
         </table>
     </main>
