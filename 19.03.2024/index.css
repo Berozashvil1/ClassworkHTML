@@ -1,0 +1,18 @@
+.ad.active{
+    width: 200px;
+    border: 1px solid red;
+    background-color: aquamarine;
+    position: absolute;
+    top: 20px;
+}
+.close{
+    display: none;
+    background-color: red;
+    border: none;
+    position:absolute;
+    right: 0;
+    top: 0;
+}
+.ad.active>.close{
+    display: block;
+}

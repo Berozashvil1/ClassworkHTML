@@ -42,7 +42,7 @@ function editUser(id){
     const users=getUsers();
     let index=users.findIndex(el => el.id === id);
     if(index===-1) return;
-    userId=user[index].id;
+    userId = user[index].id;
     const user=users[index];
     Array.from(form.children).forEach((el)=>{
         let inputName=el.name;
@@ -96,3 +96,5 @@ function renderUsers(arr){
         setEditListener();
     });
 }
+
+
