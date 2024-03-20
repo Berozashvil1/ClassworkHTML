@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     let formData = new FormData(form);
     const user=Object.fromEntries(formData);
-    user.id=idGenerator();
+    user.id=userId ?? idGenerator();
     saveUser(user);
     renderUsers(getUsers());
     reset();
@@ -42,7 +42,7 @@ function editUser(id){
     const users=getUsers();
     let index=users.findIndex(el => el.id === id);
     if(index===-1) return;
-    userId = user[index].id;
+    userId = users[index].id;
     const user=users[index];
     Array.from(form.children).forEach((el)=>{
         let inputName=el.name;
@@ -88,13 +88,13 @@ function renderUsers(arr){
         <td>${user.address}</td>
         <td>${user.phonenumber}</td>
         <td class="icons">
-        <img class="edit" src="./download (1).png" alt="">
-        <img class="delete" userId=${user.id} src="./download.png" alt="">
+        <img  userId=${user.id} class="edit" src="./download (1).png" alt="">
+        <img userId=${user.id} class="delete" src="./download.png" alt="">
         </td>
         </tr>`
-        setDeleteListener();
-        setEditListener();
+        
     });
+    setDeleteListener();
+        setEditListener();
 }
-
 
