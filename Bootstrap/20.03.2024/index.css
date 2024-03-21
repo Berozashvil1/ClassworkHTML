@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.arrow{
+    width: 20px;
+}
+
+
+ul>a{
+    text-decoration: none;
+}
