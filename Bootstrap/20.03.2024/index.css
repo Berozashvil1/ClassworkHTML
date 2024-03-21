@@ -1,18 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: lightgrey;
+body {
+  background-color: lightgrey;
 }
 
-.arrow{
-    width: 20px;
+nav {
+  padding: 0 100px;
 }
 
 
-ul>a{
-    text-decoration: none;
-}
+
+
+
+
+/* hr {
+  transform: rotate(90deg);
+  width: 60px;
+} */
