@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     let formData = new FormData(form);
     const user=Object.fromEntries(formData);
-    user.id=idGenerator();
+    user.id=userId ?? idGenerator();
     saveUser(user);
     renderUsers(getUsers());
     reset();
@@ -96,3 +96,13 @@ function renderUsers(arr){
         setEditListener();
     });
 }
+
+class nameValidator{
+    isValid(value){
+       
+    }
+ }
+ 
+ function inputValidator(validator,value){
+    return validator.isValid(value)
+ }
