@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body>
+    <main>
+        <form class="form">
+            <div class="fullname">
+                <input type="text" placeholder="Firstname" name="firstname" required/>
+                <input type="text" placeholder="Lastname" name="lastname" required/>
+            </div>
+            <input class="email" type="email" placeholder="Example@gmail.com" name="email" required/>
+            <input class="address" type="text" placeholder="Address" name="address" required/>
+            <input class="phone" type="tel" placeholder="123-456-789" name="phonenumber" required minlength="9"/>
+            </div>
+            <input class="submit" type="submit" value="SUBMIT" name="submit" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>email</th>
+                    <th>address</th>
+                    <th>phone</th>
+                    <th>actions</th>
+                </tr>
+            </thead>
+            <tbody class="users-list">
+               
+            </tbody>
+        </table>
+    </main>
+
+
+    <script src="/index2.js"></script>
+</body>
+
+</html>
