@@ -18,11 +18,6 @@ async function init() {
     HtmlElement.amount_2.value = rate * 1
 }
 
-function convert() {
-
-}
-
-
 init()
 
 HtmlElement.select_1.addEventListener("change", async (e) => {
@@ -33,6 +28,9 @@ HtmlElement.select_1.addEventListener("change", async (e) => {
     rate = data.rates[code2];
     HtmlElement.amount_2.value = rate * HtmlElement.amount_1.value
     code2 = HtmlElement.select_2.value;
-    console.log(rate)
+    console.log(rate);
 })
 
+convert.addEventListener("click", (e)=>{
+    
+})
