@@ -14,16 +14,18 @@
   </head>
   <body>
     <main>
+      <div class="loader"></div>
       <form class="currencies">
         <div class="changing">
           <select name="code11" id="select-1"></select>
           <input type="number" name="curr1" id="amount-1" value="1" min="0" />
         </div>
+          <img src="./download (4).png" id="swapCurrencies">
         <div class="changed">
           <select name="code-2" id="select-2"></select>
-          <input type="number" name="curr2" id="amount-2" />
+          <input type="number" name="curr2" id="amount-2" disabled />
         </div>
-        <input type="submit" value="Convert" />
+        <input type="submit" value="Convert" id="ConvertBtn"/>
       </form>
     </main>
 
