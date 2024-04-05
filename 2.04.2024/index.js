@@ -40,25 +40,6 @@ async function init() {
     HtmlElement.amount_2.value = amount_2;
 }
 
-<<<<<<< HEAD
 await init();
 
 
-=======
-init()
-
-HtmlElement.select_1.addEventListener("change", async (e) => {
-    const code = e.target.value;
-    const data = await getCurrencies(code);
-    code2 = HtmlElement.select_2.value;
-    code1 = data.base_code;
-    rate = data.rates[code2];
-    HtmlElement.amount_2.value = rate * HtmlElement.amount_1.value
-    code2 = HtmlElement.select_2.value;
-    console.log(rate);
-})
-
-convert.addEventListener("click", (e)=>{
-    
-})
->>>>>>> a3654dd47c70c822fbff14d14d87db6279ee24e8

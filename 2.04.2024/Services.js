@@ -2,9 +2,11 @@ import{URL} from "./Keys.js";
 import { HtmlElement } from "./DomeElements.js";
 
 async function getData(endPoint){
-   try{ const url=URL+endPoint;
+  try{ const url=URL+endPoint;
+    HtmlElement.loader.classList.add("active")
     const data=await fetch(url);
     const result=await data.json();
+    HtmlElement.loader.classList.remove("active")
     return result}catch{
         console.log('catch')
     }

@@ -1,2 +1,2 @@
-const APIKEY= "a3756ab1414e3d133427abf1";
+const APIKEY= "a94dc335d4fd68c0fc53d337";
 export const URL= `https://v6.exchangerate-api.com/v6/${APIKEY}/`
