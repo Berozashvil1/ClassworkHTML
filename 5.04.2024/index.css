@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 42, 51);
+}
+
+.tic-tac-toe{
+    margin: 100px auto;
+    width: 30%;
+    height: 550px;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.headXO{
+    width: 15%;
+}
+
+.turn{
+    position: relative;
+    margin-left: 70px;
+    background-color: rgb(31, 54, 65);
+    width: 32%;
+    height: 36px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 1px;
+}
+.turn-images>img{
+    width: 15%;
+    position: absolute;
+    top: 9px;
+    left: 25px;
+}
+.turn>h5{
+    color: white;
+    margin: 11px 10px 0 55px;
+}
+
+.restartBtn{
+    margin-left: 24%;
+}
+
+.game-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-body>div{
+    margin-top: 20px;
+    width: 30%;
+    height: 120px;
+    border-radius: 10px;
+    background-color:  rgb(31, 54, 65);
+    box-shadow: 0px 3px 5px 1px;
+}
+
+.scores{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scores>div{
+    border-radius: 10px;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 0px 3px 5px 1px;
+}
+
+.scores>div>p{
+    font-size: 12px;
+}
+
+.x-player{
+    background-color: rgb(49, 195, 189);
+}
+
+.ties{
+    background-color: rgb(168, 191, 201);
+}
+
+.o-player{
+    background-color: rgb(242, 177, 55);
+}
+
+.square-1,.square-2,.square-3,.square-4,.square-5,.square-6,.square-7,.square-8,.square-9{
+    position: relative;
+}
+
+.square-1>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-2>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-3>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-4>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-4>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-5>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-6>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-7>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-8>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
+.square-9>div>img{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+}
