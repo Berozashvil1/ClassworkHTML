@@ -34,9 +34,9 @@
 
 
 function checkCharCase(a, b) {
-    if (a.toLowerCase==a.toUpperCase||b.toLowerCase==b.toUpperCase) {
+    if (a.toLowerCase == a.toUpperCase || b.toLowerCase == b.toUpperCase) {
         return -1
     }
-    return Number((a.toUpperCase()===a)===(b.toUpperCase()===b))
+    return Number((a.toUpperCase() === a) === (b.toUpperCase() === b))
 }
-console.log(checkCharCase("f" , "?"))
+console.log(checkCharCase("f", "?"))
