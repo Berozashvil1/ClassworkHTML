@@ -46,6 +46,6 @@ console.log(arr)
 
 for(let i=0; 1<arr.length;){
     if(arr[i]%2>0){
-        arr.splice9
+        
     }
 }
