@@ -1,0 +1,92 @@
+// task 1
+
+let date = "Apr 29 2024";
+let newDate= new Date(date)
+let year = String(newDate.getFullYear());
+let month = String(newDate.getMonth() + 1)
+let day = String(newDate.getDate())
+
+console.log("Year :", year)
+console.log("Moth :", month)
+console.log("Day :", day)
+
+// -----------------------------------------------------------
+
+// task 2
+
+function dateNow() {
+  let nowDate = new Date();
+  let day = String(nowDate.getDate());
+  let month = String(nowDate.getMonth() + 1);
+  let year = String(nowDate.getFullYear());
+  let newDate = `${day}-${month}-${year}`;
+  return console.log(newDate);
+}
+dateNow();
+
+
+// -----------------------------------------------------------
+
+
+// task 3
+
+let Date1 = "Apr-11-2002";
+let Date2 = "Aug-26-2023";
+
+function countDaysBetween(date1, date2) {
+  let Date_1 = new Date(date1).getTime();
+  let Date_2 = new Date(date2).getTime();
+
+  let daysBetween = Math.abs(Date_2 - Date_1);
+  return Math.floor(daysBetween / (1000 * 60 * 60 * 24));
+}
+
+console.log(countDaysBetween(Date1, Date2));
+
+
+// -----------------------------------------------------------
+
+
+// task 4
+
+let txt =
+  "A ship is a large vessel that travels the world's oceans and other navigable waterways, carrying cargo or passengers, or in support of specialized missions, such as defense, research and fishing. Ships are generally distinguished from boats, based on size, shape, load capacity and purpose. Ships have supported exploration, trade, warfare, migration, colonization, and science. Ship transport is responsible for the largest portion of world commerce.";
+let wrd = "ship";
+function countWord(text, word) {
+  const matches = text.match(word);
+  return matches ? matches.length : 0;
+}
+
+console.log(countWord(txt, wrd));
+
+
+// -----------------------------------------------------------
+
+
+// task 5
+
+let text = "There are various methods that";
+
+let modified = text.split(" ").join("-");
+
+console.log(modified);
+
+
+// -----------------------------------------------------------
+
+
+// task 6
+
+function updateTime() {
+  const now = new Date();
+  const hours = String(now.getHours());
+  const minutes = String(now.getMinutes());
+  const seconds = String(now.getSeconds());
+  const formattedTime = `${hours}:${minutes}:${seconds}`;
+
+  document.getElementById("time").textContent = formattedTime;
+}
+
+updateTime();
+
+setInterval(updateTime, 1000);
